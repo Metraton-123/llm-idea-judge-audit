@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local outputs / data
+out/
+data/full/
+*.log
+*.jsonl
+
+# Secrets
+.env
+judges.json
+configs/judges.json
+*.key

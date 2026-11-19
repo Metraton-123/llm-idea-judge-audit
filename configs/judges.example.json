@@ -1,0 +1,18 @@
+{
+  "qwen38flash": {
+    "provider": "qwen",
+    "model": "qwen3.8-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "env_var": "DSH_QWEN_API_KEY",
+    "max_tokens": 150,
+    "extra": {"enable_thinking": false}
+  },
+  "glm53": {
+    "provider": "zhipu",
+    "model": "glm-5.3",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4",
+    "env_var": "DSH_ZHIPU_API_KEY",
+    "max_tokens": 512,
+    "extra": {"reasoning_effort": "low"}
+  }
+}
